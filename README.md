@@ -15,6 +15,7 @@ SMI (System Management Interrupt) detector, detect SMI info.
    ## 2 make and insmod
     2.1. make
     2.2. insmod ./smi_detector.ko enabled=1 threshold=100
+        Note: adjust the value of threshold, according to the performance of your hardware
     
-   ## 3 find smi info from /debugfs/smi_detector
+   ## 3 find smi info. from /debugfs/smi_detector
     
