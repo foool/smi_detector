@@ -19,3 +19,7 @@ SMI (System Management Interrupt) detector, detect SMI info.
     
    ## 3 find smi info. from /debugfs/smi_detector
     
+# An alternative way to monitor the SMI is using Linux kernel tracer `hwlat_detector`
+
+    Refer to Linux docs to see more : https://www.kernel.org/doc/html/latest/trace/hwlat_detector.html
+    Note: must check the option box 'kernel hacking / Tracers'
